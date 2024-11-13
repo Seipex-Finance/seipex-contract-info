@@ -79,7 +79,7 @@ event TokensPurchased(
     uint256 timestamp
 )
 ```
-Emitted when by all token purchases with detailed information.
+Emitted by all token purchases with detailed information.
 
 ### Sale Tracking
 ```solidity
@@ -92,7 +92,7 @@ event TokensSold(
     uint256 timestamp
 )
 ```
-Emitted when by all token sales with detailed information.
+Emitted by all token sales with detailed information.
 
 ### Token Bonding
 ```solidity
@@ -100,4 +100,4 @@ event TokenBonded(
     address indexed token
 )
 ```
-Emitted when a token is successfully bonded to DragonSwap.
+Emitted when a token is successfully bonded on DragonSwap.
