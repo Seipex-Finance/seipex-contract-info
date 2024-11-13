@@ -13,7 +13,7 @@ Seipex allows anyone to create and purchase ERC20 tokens on https://seipex.fi us
 ```solidity
 function buyTokens(address token) external payable
 ```
-Purchase tokens with SEI by sending the desired amount of Sei along with the transaction.
+Purchase tokens with Sei by sending the desired amount of Sei along with the transaction.
 - Automatically calculates token amount based on the current bonding curve
 - Price increases with each purchase, following the AMM curve
 - Emits a `TokensPurchased` event with purchase details
@@ -31,13 +31,13 @@ Sell tokens back to the platform in exchange for Sei.
 ```solidity
 function estimateBuy(address token, uint256 ethAmount) public view returns (uint256)
 ```
-Calculate expected token amount for a given SEI input.
+Calculate expected token amount for a given Sei input.
 - Helps users estimate their output before buying
 
 ```solidity
 function estimateSell(address token, uint256 tokenAmount) public view returns (uint256)
 ```
-Calculate expected SEI return for a given token amount.
+Calculate expected Sei return for a given token amount.
 - Helps users estimate their output before selling
 
 ### Token Information
